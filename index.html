@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet" />
+    <title>Dev.Gui</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>  
+    <!-- navbar -->
+    <header id="navbar">
+      <img src="img/shuriken.png" alt="Logo do site" />
+      <h2><span class="namecolor">Dev</span>.Gui</h2>
+      <nav>
+        <ul id="navbar-list">
+          <li><a   href="#about-section">Sobre</a></li>
+          <li><a  href="#jobs-section">Portfólio</a></li>
+          <li><a  href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- end navbar-->
+    <!-- start banner -->
+    <main>
+      <div id="main-banner">
+        <div id="banner-info">
+          <h1>Olá, meu nome é Guilherme Cardoso</h1>
+          <img src="img/Perfil.jpg" alt="Perfil" />
+          <p>Desenvolvedor Front-end</p>
+        </div>
+      </div>
+      <!-- end banner -->
+      <!-- about start -->
+      <section id="about-section">
+        <h2>Descritivo</h2>
+        <p>
+          Atuando como Desenvolvedor Front-End, melhorias e implementações em
+          banco de dados e sistemas. Implementações em scripts e ambientes em
+          nuvem. Conhecimentos em JavaScript, VueJS, Html, Css, Bootstrap.banco
+          de dados Relacional e NoSql. Arquitetura Clean,Mysql,SQL
+          Server,Microservices,Protocolo HTTP, Rest API.
+        </p>
+      </section>
+      <!-- end about -->
+    </main>
+    <!--skills start-->
+    <section id="skills-section">
+      <div class="container">
+        <div class="skills-container">
+          <img src="img/Dev.png" alt="Dev">
+          <h3>Desenvolvimento</h3>
+          <p>
+            Meu objetivo é me tornar um Desenvolvedor referência para as
+            próximas gerações.
+          </p>
+          <p class="subtitle">Linguagens que utilizo:</p>
+          <p>Html5, Css, JavaScript, VueJS, Bootstrap</p>
+          <p class="subtitle">Projetos desenvolvidos:</p>
+          <p>
+            E-commerces, Sites institucionais, Sistemas SPA de qualquer
+            complexidade.
+          </p>
+        </div>
+        <div class="skills-container central">
+          <img src="img/Create.png" alt="Create">
+          <h3>Criação</h3>
+          <p>Atuo também com análise e gerenciamento de projetos</p>
+          <p class="subtitle">Meus Conhecimentos:</p>
+          <p>Análise de software, Desenvolvimento do back-end e front-end</p>
+        </div>
+        <div class="skills-container">
+          <img src="img/Infra.png" alt="Infra">
+          <h3>Infraestrutura</h3>
+          <p>
+            Posso mensurar seus servidores, deixando o projeto mais
+            performático.
+          </p>
+          <p class="subtitle">Serviços em Cloud:</p>
+          <p>AWS, Google Cloud, Microsoft Azure</p>
+          <p class="subtitle">Oque posso fazer:</p>
+          <p>Clusters, Servidores de CDN, melhorias em requisições.</p>
+        </div>
+      </div>
+    </section>
+    <!--skills end-->
+    <!-- jobs start-->
+    <section id="jobs-section">
+      <h2>Veja meus últimos projetos:</h2>
+      <p>
+        Aqui estão os meus projetos mais rescentes, para ver todos
+        <a  target="_blank" href="https://github.com/gdcodedev">Clique aqui</a>
+      </p>
+      <div class="job-container">
+        <div class="job-box proj1"></div>
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+      </div>
+      <div class="job-container">
+        <div class="job-box proj2"></div>
+        <div class="job-box proj3"></div>
+        <div class="job-box proj1"></div>
+      </div>
+    </section>
+    <!--jobs end-->
+    <!-- footer start-->
+    <footer>
+      <h2>Me envie uma mensagem</h2>
+      <p>Caso queira falar sobre algum projeto.</p>
+      <img src="img/Perfil.jpg" alt="Perfil" />
+      <form  id="contato" action="" method="">
+        <input type="text" name="name" placeholder="Digite seu nome" required />
+        <input type="email" name="email" placeholder="Digite seu email" required />
+        <textarea name="msg" placeholder="Digite sua mensagem" required></textarea>
+        <input .prevent type="submit" value="Enviar" />
+      </form>
+      <p>
+        Desenvolvidor por
+        <span class="detail">Guilherme Cardoso - Base de estudos.</span>
+      </p>
+    </footer>
+    <!--footer end-->
+    <script src="js/app.js"></script>
+    <script src="vuecomponent/BackToTop.vue"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+  </body>
+</html>
