@@ -1,12 +1,8 @@
 /* configurações gerais */
-body,
-p,
-h1,
-h2,
-input,
-textarea {
+body, p, h1, h2, input, textarea {
   margin: 0px;
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -409,4 +405,30 @@ footer .detail {
   bottom: 50% !important;
   position: absolute;
   transform: translateY(50%);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #ff7f50;
+  text-decoration: none;
+  border-radius: 55%;
+  border: 1px solid #000000;
+}
+
+.btn::after {
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: margin-top 250ms;
+}
+.btn:hover::after {
+  margin-top:-8px;
 }
