@@ -5,6 +5,7 @@ Projeto pessoal / HTML / CSS / JAVASCRIPT / VUEJS
 - [x] CSS
 - [x] JavaScript
 - [x] VueJs
+- [x] Responsive Mobile
 
 https://gdcodedev.github.io/Dev.Gui/
 
